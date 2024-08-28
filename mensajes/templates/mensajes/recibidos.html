@@ -9,8 +9,8 @@
         {% for mensaje in mensajes %}
             <li>
                 {{ mensaje.fecha_envio }} - 
-                De: {{ mensaje.remitente.username }} - 
-                Para: {{ mensaje.destinatario.username }} - 
+                De: {{ mensaje.remitente}} - 
+                Para: {{ mensaje.destinatario}} - 
                 {{ mensaje.texto }}
             </li>
         {% empty %}
