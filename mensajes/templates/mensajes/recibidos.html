@@ -7,7 +7,12 @@
     <h1>Mensajes Recibidos</h1>
     <ul>
         {% for mensaje in mensajes %}
-            <li>{{ mensaje.fecha_envio }} - De: {{ mensaje.remitente.username }} - {{ mensaje.texto }}</li>
+            <li>
+                {{ mensaje.fecha_envio }} - 
+                De: {{ mensaje.remitente.username }} - 
+                Para: {{ mensaje.destinatario.username }} - 
+                {{ mensaje.texto }}
+            </li>
         {% empty %}
             <li>No tienes mensajes.</li>
         {% endfor %}

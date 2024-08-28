@@ -55,7 +55,7 @@ ROOT_URLCONF = 'TableroMensajes.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['C:\Users\Usuario\Desktop\ProyectosDjango\TableroMensajes\TableroMensajes\mensajes\templates\mensajes'],
+        'DIRS': ['C:/Users/Usuario/Desktop/ProyectosDjango/TableroMensajes/TableroMensajes/mensajes/templates/mensajes'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
